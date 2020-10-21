@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Stylesheet-->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js"></script>
+<!--Stylesheet-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web Design Blog</title>
+<body>
+ <!----------Fonts------->
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<!------x----Fonts----x--->
+</head>
+
+<!----------Header---------->	
+	<div class="grid-container">
+		<div class="logo grid-item-1">
+			<h1 class="title">Confessions of a {<br>Web Design Amateur }</h1>
+		</div>
+		<div class="space grid-item-2">
+		</div>
+		<div class="space grid-item-2">
+		</div>
+<!----X-----Header----X----->	
+
+<!----------NAV BAR ------->
+		<div class="links grid-item-3">
+			<div class="home-btn">
+			<button class="button"><a href="index.html">Home</a></button>
+			</div>
+		</div>
+		<div class="dropdown grid-item-4">
+			<button class="dropbtn">Posts</button>
+				<div class="dropdown-content">
+					<a href="basic.html">HTML & CSS</a>
+					<a href="flexbox.html">Flexbox</a>
+					<a href="grids.html">Grids</a>
+					<a href="media-queries.html">Media Queries</a>
+				</div>
+		</div>
+<!-----X-----NAV BAR ---X---->	
+
+<!----------Blog---------->
+		<div class="space grid-item-5">
+<!----------Gap for grid---------->
+		</div>
+		<div class="pic-match grid-item-6">
+<!----------JS---------->
+		<button class="js-button" onclick="button1()">Light</button>
+		<img id="myImage" src="images/match-unlit.png" width="50px">
+		<button class="js-button" onclick="button2()">Extinguish</button>
+<!----------JS---------->
+		</div>
+		<main>
+			<div class="main-text grid-item-7">
+				<article>
+					<header>
+						<h2 class="post-title">A bit of fun with JavaScript</h2>
+						<p class="date">18th September, 2020</p>
+					</header>
+					<p class="blog-text">
+						JavaScript is my favourite coding language that I've used, because you can do wacky, fun stuff with it. You don't necessarily have to have an objective in mind, other than <em>"let's make something that looks cool"</em> — which is great. 
+						One of my favourite things about JavaScript is that accidents and mistakes can actually end up being positive things, because you might end up creating something totally unexpected and awesome.
+					</p>
+					<p class="blog-text">
+						This exercise was a simple on/off with two different buttons that change the state. I had trouble implementing it into my webpage however, because I kept messing up the linking of the file names, or I'd misspell something and spend 15 minutes trying to figure out why Visual Studio was throwing four errors at me. 
+						My poor, fatigued brain didn't understand. It couldn't see the obvious mistake of <strong>"fuction"</strong> vs <strong>"function"</strong> 
+					</p>
+					<p class="blog-text">
+						But when I found it, you could say it was like flipping a switch, or lighting a match, or something. There's a pun in there somewhere.
+					</p>
+				</article>
+			</div>
+		</main>
+		<div class="space grid-item-5">
+<!----------Gap for grid---------->
+		</div>
+		<div class="space grid-item-5">
+<!----------Gap for grid---------->
+		</div>
+		<footer>
+			<h2>Created by Cody Westerman<br>for IXXN221: Web Design I</h2>
+		</footer>
+		<div class="vuw-logo grid-item-6">
+			<img src="images/vuw-logo.jpg" alt="Victoria University Logo" width="450vw">
+		</div>
+	</div>
+<!-----X----Blog-----X---->
+
+</body>
+</html>
